@@ -1,0 +1,5 @@
+Reedemer called Andre regarding the R Haddock site, and to find out what he is currently using to host sites on.
+Andre explained that they use a Linux server.
+Reedemer explained that we cannot run the R Haddock next.js app on a linux server, so Andre suggested we send him the IP address of where we will be hosting, 
+and he will simply point rhaddock.co.za to that new address.
+Thus allowing us to host the new site on AWS Amplify.
