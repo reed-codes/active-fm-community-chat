@@ -1,11 +1,12 @@
 import { useContext, useState } from 'react'
 import styled from 'styled-components'
 import {ThemeContext} from '../state/ThemeProvider'
+import {trim} from '../utils'
 
 const ShowCardWrapper = styled.a`
 width:200px;
 min-width:200px;
-margin-right:15px;
+// margin-right:7%;
 margin-bottom:30px;
 transition: all .3s;
 padding:10px;
@@ -25,32 +26,30 @@ const ShowCardDescription = styled.div`
    opacity :.5
 `
 
-export const ShowCard = ()=>{
+export const ShowCard = (props)=>{
     const {theme, setTheme} = useContext(ThemeContext);
     const darkMode = Boolean(theme == "dark")
-
-    console.log(darkMode)
+    let show = props.show ? show : {};
 
     return (
-       <ShowCardWrapper href = "">
+       <ShowCardWrapper href = {show.link}>
                    <img style = {{
                        height:160,
                        width:'100%',
                        marginBottom:10,
                        objectFit:'cover'
                    }}
-                   src = './img-1.jpg'
-                   alt = "show name"
+                   src = {show.img}
+                   alt = {show.name}
                    />
-                   
+{/*       
                    <ShowCardTitle darkMode = {darkMode}>
-                       Keeping Up With The Reedemers
+                       { show.name }
                    </ShowCardTitle>
 
                    <ShowCardDescription theme = {theme} darkMode = {darkMode}>  
-                   The Active Church is a biblically-based church that focuses on...
-                  </ShowCardDescription> 
-
+                       { trim(show.description) }
+                  </ShowCardDescription>  */}
        </ShowCardWrapper> 
     )
 

@@ -57,6 +57,10 @@ a {
   letter-spacing: 1px;
 }
 
+a:hover{
+  color:deeppink;
+}
+
 *::-webkit-scrollbar{
   height:10px;
   width:10px;

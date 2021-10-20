@@ -14,6 +14,7 @@ font-size: 20px;
 font-weight: 700;
 color: ${({theme})=> ( theme == 'light' ) ? '#111' : '#fff'};
 margin: 15px 0 25px 0;
+cursor:default;
 `
 
 export const Footer = styled.footer`
@@ -28,4 +29,5 @@ export const Footer = styled.footer`
 
 export const Paragraph = styled.p`
 color: ${({theme})=> ( theme == 'light' ) ? '#111' : '#fff'};
+cursor:default
 ` 

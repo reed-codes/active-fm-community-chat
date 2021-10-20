@@ -49,8 +49,6 @@ const Layout = ({ children }) => {
   const { theme } = useContext(ThemeContext);
   const maxWidth900px = useMediaQuery("(max-width:900px)");
   const maxWidth670px = useMediaQuery("(max-width:670px)");
-  let smallScreenIonoWrapperDefaultHeight = "205px";
-  let smallScreenIonoWrappercurrentHeight = "205px";
 
   return (
     <>

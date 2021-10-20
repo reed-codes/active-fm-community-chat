@@ -24,6 +24,9 @@ import {
   Modal,
 } from "@material-ui/core";
 
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
+
 const Navigation = styled.nav`
 height: 60px;
 width: 100%;
@@ -126,7 +129,14 @@ const Nav = () => {
                 inputProps={{ "aria-label": "theme switcher" }}
               />
  
-               Dark
+
+ {
+   darkMode ? (
+    <DarkModeIcon style ={{fontSize:15}}/>
+   ) : (
+  <LightModeIcon style = {{color:'#111', fontSize:15}}/>
+    )
+ }
 
           </div>
 
