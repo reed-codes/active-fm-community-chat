@@ -39,7 +39,7 @@ export const ShowCard = (props)=>{
                        marginBottom:10,
                        objectFit:'cover'
                    }}
-                   src = {show.img}
+                   src = {`/img/${show.im}g`}
                    alt = {show.name}
                    />
 {/*       
