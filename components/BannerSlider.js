@@ -12,7 +12,6 @@ export const BannerSlider = ()=>{
                   showThumbs  = {false}
                   interval = {3000}
                   style = {{
-                      height:300,
                       width:'100%',
                       background : 'deeppink'
                   }}
@@ -21,46 +20,43 @@ export const BannerSlider = ()=>{
                   stopOnHover = {false}
                   >
                             <div style  = {{
-                                 height : '300px',
+                                 height : 'auto',
                                  width:'100%',
                              }}>
                                  <img src = {{
-                                     height:'100%',
                                      width:'100%',
                                      objectFit : 'cover',
                                      objectPosition:'center'
                                  }}
-                                  src = "./img-2.jpg"
+                                  src = "./img/Banner 1.jpg"
                                   alt = ""
                                  />
                              </div>
 
                             <div style  = {{
-                                 height : '300px',
+                                 height : 'auto',
                                  width:'100%',
                              }}>
                                  <img src = {{
-                                     height:'100%',
                                      width:'100%',
                                      objectFit : 'cover',
                                      objectPosition:'center'
                                  }}
-                                  src = "./img-3.jpg"
+                                  src = "./img/Banner 2.jpg"
                                   alt = ""
                                  />
                              </div>
                              
                             <div style  = {{
-                                 height : '300px',
+                                 height : 'auto',
                                  width:'100%',
                              }}>
                                  <img src = {{
-                                     height:'100%',
                                      width:'100%',
                                      objectFit : 'cover',
                                      objectPosition:'center'
                                  }}
-                                  src = "./img-4.jpg"
+                                  src = "./img/Banner 3.jpg"
                                   alt = ""
                                  />
                              </div>

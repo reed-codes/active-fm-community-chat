@@ -14,7 +14,9 @@ const FooterSection = () => {
 <Footer>
 
 <div className = 'row' style = {{
-                         paddingBottom : maxWidth900px ? 170 : 0
+                         paddingBottom : maxWidth900px ? 170 : 0,
+                         position:'relative',
+                         zIndex : 1
                        }}>
       
        <div className = 'col-md-8'>

@@ -4,60 +4,72 @@ import ShowSchedule from '../components/ShowSchedule'
 import ShowCard from '../components/ShowCard'
 import {SectionHeader} from '../styles/style-utils'
 import {ThemeContext} from '../state/ThemeProvider'
+import { ShowsContext } from '../state/ShowsContext'
 
 
 const Home = () => {
    const {theme} = useContext(ThemeContext);
+   const {shows} = useContext(ShowsContext)
 
     return (
       <>
-
-                     <SectionHeader className = "section-header" theme = {theme}>
-                            RECENTLY PLAYED
-                     </SectionHeader>
             
                      <BannerSlider/>
                     
                      <SectionHeader className = "section-header" theme = {theme}>
-                            RECENTLY PLAYED
+                            TALK SHOWS
                      </SectionHeader>
-
                    
                      <div className = "shows-scrollable-row no-scroll">
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
+                         {
+                             shows.talkShows.map((show, index) => <ShowCard index = {index} show = {show}/>)
+                         }
                      </div>
-                    
-                     <SectionHeader className = "section-header"  theme = {theme}>
-                            RECENTLY PLAYED
-                     </SectionHeader>
 
-                   
-                     <div className = "shows-scrollable-row no-scroll">
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                     </div>
-                    
+
                      <SectionHeader className = "section-header" theme = {theme}>
-                            RECENTLY PLAYED
+                           MORNING SHOWS
                      </SectionHeader>
-
                    
                      <div className = "shows-scrollable-row no-scroll">
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
-                         <ShowCard/>
+                         {
+                             shows.morningShows.map((show, index) => <ShowCard index = {index} show = {show}/>)
+                         }
                      </div>
 
 
+                     <SectionHeader className = "section-header" theme = {theme}>
+                            AFTERNOON SHOWS
+                     </SectionHeader>
+                   
+                     <div className = "shows-scrollable-row no-scroll">
+                         {
+                             shows.afternoonShows.map((show, index) => <ShowCard index = {index} show = {show}/>)
+                         }
+                     </div>
+
+
+                     <SectionHeader className = "section-header" theme = {theme}>
+                           EVENING SHOWS
+                     </SectionHeader>
+                   
+                     <div className = "shows-scrollable-row no-scroll">
+                         {
+                             shows.eveningShows.map((show, index) => <ShowCard index = {index} show = {show}/>)
+                         }
+                     </div>
+
+
+                     <SectionHeader className = "section-header" theme = {theme}>
+                            MUSIC SHOWS
+                     </SectionHeader>
+                   
+                     <div className = "shows-scrollable-row no-scroll">
+                         {
+                             shows.musicShows.map((show, index) => <ShowCard index = {index} show = {show}/>)
+                         }
+                     </div>
+                  
                      <SectionHeader className = "section-header" theme = {theme}>
                                 SCHEDULE
                     </SectionHeader>
