@@ -60,21 +60,7 @@ const Layout = ({ children }) => {
         <MainWrapper theme={theme}>
           <MainWrapperLeftGrid smallScreen={maxWidth670px}>
            
-          <div
-              style={{
-                height: 150,
-                width: 150,
-                background: "red",
-                position: "absolute",
-                top: "15%",
-                left: 20,
-                transform: "rotate(-45deg)",
-                filter:'brightness(20%)',
-                zIndex: 0,
-                background:" url('./img-2.jpg') "
-              }}
-            />
-           
+   
             <div
               style={{
                 position: "relative",

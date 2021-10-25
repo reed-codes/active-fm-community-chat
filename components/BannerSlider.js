@@ -13,7 +13,9 @@ export const BannerSlider = ()=>{
                   interval = {3000}
                   style = {{
                       width:'100%',
-                      background : 'deeppink'
+                      background : 'deeppink',
+                      position:'relative',
+                      zIndex:1
                   }}
                   showArrows = {false}
                   showIndicators = {false}

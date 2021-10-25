@@ -7,16 +7,21 @@ const ShowCardWrapper = styled.a`
 width:200px;
 min-width:200px;
 margin-bottom:30px;
+margin-right:2px;
 transition: all .3s;
 padding:10px;
-background : rgba(0,0,0,.05);
+// background : rgba(0,0,0,.05);
 color:#ddd;
 cursor:pointer;
+// background:#111111;
+background: rgba(0,0,0,0.1);
+backdrop-filter: blur(35px);
 &:hover{
     color : #aa2329;
     background : rgba(0,0,0,.3)
 }
 `
+
 const ShowCardTitle = styled.div`
    color : ${ ( {darkMode} ) => darkMode ? '#fff' : '#111'};
 `

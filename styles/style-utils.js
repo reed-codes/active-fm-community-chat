@@ -17,6 +17,16 @@ margin: 15px 0 25px 0;
 cursor:default;
 `
 
+export const SecondarySectionHeader = styled.div`
+position: relative;
+margin: 10px 0;
+font-size: 17px;
+font-weight: 700;
+color: ${({theme})=> ( theme == 'light' ) ? '#111' : '#fff'};
+margin: 15px 0 25px 0;
+cursor:default;
+`
+
 export const Footer = styled.footer`
    padding:20px;
    width:100%;
@@ -27,7 +37,8 @@ export const Footer = styled.footer`
    font-size:13px
 `
 
-export const Paragraph = styled.p`
+export const Paragraph = styled.div`
 color: ${({theme})=> ( theme == 'light' ) ? '#111' : '#fff'};
-cursor:default
+cursor:default;
+opacity:.8
 ` 
