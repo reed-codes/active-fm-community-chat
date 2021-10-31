@@ -1,4 +1,5 @@
-import React, { useState, useContext } from "react";
+import React, { useEffect, useContext } from "react";
+import { scrollTop } from "../utils/index";
 import {
   SectionHeader,
   Paragraph,
@@ -8,7 +9,11 @@ import {
 import { ThemeContext } from "../state/ThemeProvider";
 
 const about = () => {
-  const { theme, setTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
+
+  useEffect(() => {
+    scrollTop();
+  }, []);
 
   return (
     <section>
@@ -27,7 +32,7 @@ const about = () => {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullscreen
+            allowFullScreen
           />
         </div>
 

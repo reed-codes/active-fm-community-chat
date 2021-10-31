@@ -1,16 +1,12 @@
-import dynamic from "next/dynamic";
 import { ThemeProvider } from "../state/ThemeProvider";
 import { ShowsProvider } from "../state/ShowsContext";
-import { ParallaxProvider } from 'react-scroll-parallax';
+import Layout from "../components/Layout"
 import "../styles/Swiper.css";
 import "../styles/globals.css";
 
 
-const Layout = dynamic(() => import("../components/Layout").then((mod) => mod));
-
 function MyApp({ Component, pageProps }) {
   return (
-    <ParallaxProvider>
     <ThemeProvider>
     <ShowsProvider>
 
@@ -20,7 +16,6 @@ function MyApp({ Component, pageProps }) {
          
     </ShowsProvider>
     </ThemeProvider>
-    </ParallaxProvider>
   );
 }
 

@@ -58,9 +58,7 @@ const Layout = ({ children }) => {
 
       <div style={{ position: "relative" }}>
         <MainWrapper theme={theme}>
-          <MainWrapperLeftGrid smallScreen={maxWidth670px}>
-           
-   
+          <MainWrapperLeftGrid smallScreen={maxWidth670px} id="main-wrapper">
             <div
               style={{
                 position: "relative",
@@ -70,8 +68,6 @@ const Layout = ({ children }) => {
               {children}
             </div>
             <FooterSection />
-
-
           </MainWrapperLeftGrid>
 
           {!maxWidth900px && (
