@@ -20,7 +20,7 @@ const SocialMediaLinksGroup = ({darkTheme}) => {
         <SocialMediaGroup marginRight = {maxWidth900px ? "0" : "20px" }>
                            <a href="https://www.instagram.com/activefm777/" target = "_blank"> <InstagramIcon style = {{color: darkTheme ? '#fff' : "#111" }}/> </a>
                            <a href="https://www.youtube.com/channel/UChNIUx19XJrIOm5UGYAqkYQ" target = "_blank"> <YouTubeIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
-                           <a href="https://www.facebook.com/activefm777" >target = "_blank" <FacebookIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
+                           <a href="https://www.facebook.com/activefm777" target = "_blank" > <FacebookIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
 
                            <a href="https://open.spotify.com/show/7IqUjTiAg6jS1tgLcRL6ag" target = "_blank">
                                 <img src = "./spotify-logo.svg"
