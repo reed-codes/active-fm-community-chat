@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import Image from "next/image";
 import styled from "styled-components";
 import { ThemeContext } from "../state/ThemeProvider";
 import { trim } from "../utils";
@@ -44,12 +43,14 @@ export const ShowCard = ({ show }) => {
           position: "relative",
         }}
       >
-        <Image
-          layout="fill"
-          objectFit="cover"
-          src={`/${show.img}`}
+        <img
+        style = {{
+            width:'100%',
+            height:'100%',
+            objectFit:"cover"
+        }}
           alt={show.name}
-          placeholder="blur"
+          src={`/${show.img}`}
           className="show-img"
         />
       </div>
