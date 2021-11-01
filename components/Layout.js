@@ -82,6 +82,7 @@ const Layout = ({ children }) => {
                   padding: 0,
                 }}
                 frameBorder="0"
+                title = "iono player"
               />
             </MainWrapperRightGrid>
           )}
@@ -162,6 +163,7 @@ const IonoSmallScreenPlayer = () => {
           padding: 0,
         }}
         frameBorder="0"
+        title = "iono player"
       />
     </IonoSmallScreenPlayerWrapper>
   );

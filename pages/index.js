@@ -97,6 +97,7 @@ const Home = () => {
           position: "relative",
           zIndex: 10,
         }}
+        alt = "active fm schedule"
       />
 
       <ParallaxImage

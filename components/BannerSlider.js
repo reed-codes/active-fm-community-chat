@@ -34,7 +34,7 @@ export const BannerSlider = () => {
               objectPosition: "center",
             }}
             src="./Banner 1.jpg"
-            alt=""
+            alt="active fm banner image"
           />
         </div>
 
@@ -51,7 +51,7 @@ export const BannerSlider = () => {
               objectPosition: "center",
             }}
             src="./Banner 2.jpg"
-            alt=""
+            alt="active fm banner image"
           />
         </div>
 
@@ -68,7 +68,7 @@ export const BannerSlider = () => {
               objectPosition: "center",
             }}
             src="./Banner 3.jpg"
-            alt=""
+            alt="active fm banner image"
           />
         </div>
       </Carousel>

@@ -154,6 +154,7 @@ export const LeftWideScreenNavSection = ({ theme }) => {
                 objectFit: "contain",
                 marginRight: 10,
               }}
+              alt ="active fm logo"
             />
           </a>
         ) : (
@@ -166,6 +167,7 @@ export const LeftWideScreenNavSection = ({ theme }) => {
                 objectFit: "contain",
                 marginRight: 10,
               }}
+               alt ="active fm logo"
             />
           </a>
         )}
@@ -259,6 +261,7 @@ export function SwipeableMenuDrawer({ toggleDrawer, openMenuModal }) {
                 objectFit: "contain",
                 paddingBottom: 20,
               }}
+              alt = "active fm logo"
             />
             </a>
             </Link>
