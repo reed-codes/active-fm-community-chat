@@ -8,7 +8,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta charSet="utf-8" />
-      <link rel="icon" href="/logo.png" />
+      <link rel="icon" href="/icons/logo.png" />
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rel="stylesheet"

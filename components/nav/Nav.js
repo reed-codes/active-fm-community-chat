@@ -96,7 +96,7 @@ const Nav = () => {
   return (
     <>
       <TopContactStrip id="top-contact-strip" theme={theme}>
-        {!maxWidth900px && <div> 084 505 1166 </div>}
+        {!maxWidth900px && <div> 084 628 6060</div>}
         <div> activefm@activemi.co.za </div>
         {!maxWidth670px && (
           <div>26A Loveday Street South Selby, Johannesburg South Africa</div>
@@ -147,7 +147,7 @@ export const LeftWideScreenNavSection = ({ theme }) => {
         {theme == "dark" ? (
           <a href="/">
             <img
-              src={"/main-logo.png"}
+              src={"./icons/main-logo.png"}
               style={{
                 height: "45px",
                 width: "45px",
@@ -160,7 +160,7 @@ export const LeftWideScreenNavSection = ({ theme }) => {
         ) : (
           <a href="/">
             <img
-              src={"/light-theme-logo.png"}
+              src={"./icons/light-theme-logo.png"}
               style={{
                 height: "45px",
                 width: "45px",
@@ -254,7 +254,7 @@ export function SwipeableMenuDrawer({ toggleDrawer, openMenuModal }) {
             <Link href="/">
             <a>
             <img
-              src="/logo.png"
+              src="./icons/logo.png"
               style={{
                 width: "100%",
                 height: 100,

@@ -88,7 +88,7 @@ const Home = () => {
       </SectionHeader>
 
       <img
-        src={"./schedule.jpg"}
+        src={"./img/schedule.jpg"}
         style={{
           width: "100%",
           height: 450,
@@ -101,7 +101,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./de-mode-2.jpg"}
+        img={"./img/de-mode-2.jpg"}
         top={"20%"}
         style={{
           right: "15%",
@@ -109,7 +109,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./the-political-show-2.jpg"}
+        img={"./img/the-political-show-2.jpg"}
         top={"40%"}
         style={{
           left: "15%",
@@ -117,7 +117,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./its-a-moms-life-2.jpg"}
+        img={"./img/its-a-moms-life-2.jpg"}
         top={"60%"}
         style={{
           right: "15%",
@@ -125,7 +125,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./lets-talk-2.jpg"}
+        img={"./img/lets-talk-2.jpg"}
         top={"80%"}
         style={{
           right: "25%",

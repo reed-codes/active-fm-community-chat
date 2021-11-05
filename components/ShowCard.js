@@ -50,7 +50,7 @@ export const ShowCard = ({ show }) => {
             objectFit:"cover"
         }}
           alt={show.name}
-          src={`/${show.img}`}
+          src={`/shows/${show.img}`}
           className="show-img"
         />
       </div>

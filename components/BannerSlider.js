@@ -12,8 +12,8 @@ export const BannerSlider = () => {
         showThumbs={false}
         interval={3000}
         style={{
-          width: "100%",
-          height: "auto",
+          // width: "100%",
+          // height: "auto",
           position: "relative",
           zIndex: 1,
         }}
@@ -22,10 +22,7 @@ export const BannerSlider = () => {
         stopOnHover={false}
       >
         <div
-          style={{
-            height: "auto",
-            width: "100%",
-          }}
+          style={{width: "100%"}}
         >
           <img
             src={{
@@ -33,16 +30,13 @@ export const BannerSlider = () => {
               objectFit: "cover",
               objectPosition: "center",
             }}
-            src="./Banner 1.jpg"
+            src="./img/Banner 1.jpg"
             alt="active fm banner image"
           />
         </div>
 
         <div
-          style={{
-            height: "auto",
-            width: "100%",
-          }}
+          style={{width: "100%"}}
         >
           <img
             src={{
@@ -50,16 +44,13 @@ export const BannerSlider = () => {
               objectFit: "cover",
               objectPosition: "center",
             }}
-            src="./Banner 2.jpg"
+            src="./img/Banner 2.jpg"
             alt="active fm banner image"
           />
         </div>
 
         <div
-          style={{
-            height: "auto",
-            width: "100%",
-          }}
+          style={{width: "100%"}}
         >
           <img
             src={{
@@ -67,7 +58,7 @@ export const BannerSlider = () => {
               objectFit: "cover",
               objectPosition: "center",
             }}
-            src="./Banner 3.jpg"
+            src="./img/Banner 3.jpg"
             alt="active fm banner image"
           />
         </div>

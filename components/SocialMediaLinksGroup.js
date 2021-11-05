@@ -19,11 +19,11 @@ const SocialMediaLinksGroup = ({darkTheme}) => {
     return (
         <SocialMediaGroup marginRight = {maxWidth900px ? "0" : "20px" }>
                            <a href="https://www.instagram.com/activefm777/" target = "_blank"> <InstagramIcon style = {{color: darkTheme ? '#fff' : "#111" }}/> </a>
-                           <a href="https://www.youtube.com/channel/UChNIUx19XJrIOm5UGYAqkYQ" target = "_blank"> <YouTubeIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
-                           <a href="https://www.facebook.com/activefm777" target = "_blank" > <FacebookIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
+                           <a href="https://youtu.be/rjDXZO-Ek24" target = "_blank"> <YouTubeIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
+                           <a href="https://www.facebook.com/activefmonlineradio" target = "_blank" > <FacebookIcon style = {{color: darkTheme ? '#fff' : "#111"}}/> </a>
 
                            <a href="https://open.spotify.com/show/7IqUjTiAg6jS1tgLcRL6ag" target = "_blank">
-                                <img src = "./spotify-logo.svg"
+                                <img src = "./icons/spotify-logo.svg"
                                   alt="spotify icon"
                                   style = {{
                                     width:35,
@@ -37,7 +37,7 @@ const SocialMediaLinksGroup = ({darkTheme}) => {
                            </a>
 
                            <a href="https://podcasts.apple.com/za/podcast/we-are-live/id1478735597" target = "_blank">
-                                <img src = "./podcast.png"
+                                <img src = "./icons/podcast.png"
                                   alt="spotify icon"
                                   style = {{
                                     width:20,

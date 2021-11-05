@@ -21,7 +21,7 @@ const about = () => {
 
       <div className="row">
         <div className="col-md-12">
-          <iframe
+          {/* <iframe
             style={{
               width: "100%",
               height: 350,
@@ -33,7 +33,20 @@ const about = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          />
+          /> */}
+
+          <video style={{
+              width: "100%",
+              height: 350,
+              minHeight: 400,
+              background: "#000",
+            }}
+            controls
+            >
+            <source src="promo.mp4" type="video/mp4" />
+            <source src="promo.ogg" type="video/ogg" />
+          Your browser does not support the videotag. 
+          </video>
         </div>
 
         <div className="col-sm-12">
