@@ -12,8 +12,6 @@ export const BannerSlider = () => {
         showThumbs={false}
         interval={3000}
         style={{
-          // width: "100%",
-          // height: "auto",
           position: "relative",
           zIndex: 1,
         }}

@@ -21,20 +21,6 @@ const about = () => {
 
       <div className="row">
         <div className="col-md-12">
-          {/* <iframe
-            style={{
-              width: "100%",
-              height: 350,
-              minHeight: 400,
-              background: "#000",
-            }}
-            src="https://www.youtube.com/embed/SpBWwmShVFs"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          /> */}
-
           <video style={{
               width: "100%",
               height: 350,
@@ -42,6 +28,7 @@ const about = () => {
               background: "#000",
             }}
             controls
+            autoPlay
             >
             <source src="promo.mp4" type="video/mp4" />
             <source src="promo.ogg" type="video/ogg" />
