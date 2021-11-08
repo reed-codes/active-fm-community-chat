@@ -28,7 +28,7 @@ export const BannerSlider = () => {
               objectFit: "cover",
               objectPosition: "center",
             }}
-            src="./img/Banner 1.jpg"
+            src="./img/Banner 1.png"
             alt="active fm banner image"
           />
         </div>
@@ -42,7 +42,7 @@ export const BannerSlider = () => {
               objectFit: "cover",
               objectPosition: "center",
             }}
-            src="./img/Banner 2.jpg"
+            src="./img/Banner 2.png"
             alt="active fm banner image"
           />
         </div>
@@ -56,7 +56,7 @@ export const BannerSlider = () => {
               objectFit: "cover",
               objectPosition: "center",
             }}
-            src="./img/Banner 3.jpg"
+            src="./img/Banner 3.png"
             alt="active fm banner image"
           />
         </div>
