@@ -6,7 +6,7 @@ import { useMediaQuery } from "@material-ui/core";
 
 const FooterSection = () => {
   const { theme } = useContext(ThemeContext);
-  const [darkMode, setDarkMode] = useState(Boolean(theme == "dark"));
+  const [darkMode, ] = useState(Boolean(theme == "dark"));
   const maxWidth900px = useMediaQuery("(max-width:900px)");
 
   return (
@@ -24,7 +24,7 @@ const FooterSection = () => {
             <Paragraph>
               <span style={{ display: "block" }}>
                 {" "}
-                <b>Tel :</b> 084 505 1166{" "}
+                <b>Tel :</b> 084 628 6060{" "}
               </span>
               <span style={{ display: "block" }}>
                 {" "}
