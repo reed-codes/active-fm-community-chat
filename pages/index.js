@@ -52,7 +52,7 @@ const Home = () => {
         ))}
       </div>
 
-  <AddBannerLink href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=971100.11&subid=0&type=4">
+  <AddBannerLink target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=971100.11&subid=0&type=4">
     <img src="ads/ad-1.jpeg"
          alt= ''
          style = {{
@@ -74,7 +74,7 @@ const Home = () => {
       </div>
 
 
-<AddBannerLink href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=969388.14&subid=0&type=4">
+<AddBannerLink  target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=969388.14&subid=0&type=4">
     <img src="ads/ad-2.png"
          alt= ''
          style = {{
@@ -96,7 +96,7 @@ const Home = () => {
       </div>
 
 
-<AddBannerLink href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=934963.18&subid=0&type=4">
+<AddBannerLink target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=934963.18&subid=0&type=4">
     <img src="ads/ad-3.gif"
          alt= ''
          style = {{
@@ -119,7 +119,7 @@ const Home = () => {
       </div>
 
 
-      <AddBannerLink href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=932989.13&subid=0&type=4">
+      <AddBannerLink target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=932989.13&subid=0&type=4">
     <img src="ads/ad-5.gif"
          alt= ''
          style = {{
