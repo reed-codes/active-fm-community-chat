@@ -9,12 +9,20 @@ export const LineDivider = styled.div`
 
 export const SectionHeader = styled.div`
 position: relative;
-margin: 10px 0;
 font-size: 20px;
 font-weight: 700;
 color: ${({theme})=> ( theme == 'light' ) ? '#111' : '#fff'};
-margin: 15px 0 25px 0;
+margin: 25px 0 25px 0;
 cursor:default;
+&::after{
+   content: '';
+   position: absolute;
+   bottom:-10px;
+   left: 0;
+   height: 2px;
+   width: 50px;
+   background: #aa2329;
+ }
 `
 
 export const SecondarySectionHeader = styled.div`

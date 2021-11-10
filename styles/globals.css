@@ -48,16 +48,6 @@ a:hover{
     border-radius: 5px;
 }
 
-.section-header::after{
-  content: '';
-  position: absolute;
-  bottom:-5px;
-  left: 0;
-  height: 2px;
-  width: 50px;
-  background: #aa2329;
-}
-
 .shows-scrollable-row{
   width: 100% ;
   display: flex ;
@@ -79,8 +69,3 @@ a:hover{
   position: relative;
   z-index: 1;
 }
-/* 
-.show-img{
-  object-fit: cover;
-  object-position: center;
-} */

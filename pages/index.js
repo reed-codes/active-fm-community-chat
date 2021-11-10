@@ -22,13 +22,14 @@ const ParallaxImage = styled.div`
 `;
 
 const AddBannerLink = styled.a`
-height: 200px;
-width: 100%;
-margin:5px 0;
-position: relative;
-z-index:100;
-display:block
-`
+  height: 200px;
+  width: 100%;
+  margin: 15px 0;
+  margin-top: ${(props)=> props.marginTop ? props.marginTop : '15px' };
+  position: relative;
+  z-index: 100;
+  display: block;
+`;
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
@@ -42,7 +43,7 @@ const Home = () => {
     <>
       <BannerSlider />
 
-      <SectionHeader className="section-header" theme={theme}>
+      <SectionHeader theme={theme}>
         TALK SHOWS
       </SectionHeader>
 
@@ -52,18 +53,22 @@ const Home = () => {
         ))}
       </div>
 
-  <AddBannerLink target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=971100.11&subid=0&type=4">
-    <img src="ads/ad-1.jpeg"
-         alt= ''
-         style = {{
-          height:'100%',
-          width:'100%',
-          objectFit:'contain'
-        }}
-    />
-  </AddBannerLink>
+      <AddBannerLink
+        target="_blank"
+        href="https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=971100.11&subid=0&type=4"
+      >
+        <img
+          src="ads/ad-1.jpeg"
+          alt=""
+          style={{
+            height: "100%",
+            width: "100%",
+            objectFit: "contain",
+          }}
+        />
+      </AddBannerLink>
 
-      <SectionHeader className="section-header" theme={theme}>
+      <SectionHeader theme={theme}>
         MORNING SHOWS
       </SectionHeader>
 
@@ -73,19 +78,22 @@ const Home = () => {
         ))}
       </div>
 
+      <AddBannerLink
+        target="_blank"
+        href="https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=969388.14&subid=0&type=4"
+      >
+        <img
+          src="ads/ad-2.png"
+          alt=""
+          style={{
+            height: "100%",
+            width: "100%",
+            objectFit: "contain",
+          }}
+        />
+      </AddBannerLink>
 
-<AddBannerLink  target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=969388.14&subid=0&type=4">
-    <img src="ads/ad-2.png"
-         alt= ''
-         style = {{
-          height:'100%',
-          width:'100%',
-          objectFit:'contain'
-        }}
-    />
-  </AddBannerLink>
-
-      <SectionHeader className="section-header" theme={theme}>
+      <SectionHeader theme={theme}>
         AFTERNOON SHOWS
       </SectionHeader>
 
@@ -95,20 +103,22 @@ const Home = () => {
         ))}
       </div>
 
+      <AddBannerLink
+        target="_blank"
+        href="https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=934963.18&subid=0&type=4"
+      >
+        <img
+          src="ads/ad-3.gif"
+          alt=""
+          style={{
+            height: "100%",
+            width: "100%",
+            objectFit: "contain",
+          }}
+        />
+      </AddBannerLink>
 
-<AddBannerLink target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=934963.18&subid=0&type=4">
-    <img src="ads/ad-3.gif"
-         alt= ''
-         style = {{
-          height:'100%',
-          width:'100%',
-          objectFit:'contain'
-        }}
-    />
-</AddBannerLink>  
-
-
-      <SectionHeader className="section-header" theme={theme}>
+      <SectionHeader theme={theme}>
         EVENING SHOWS
       </SectionHeader>
 
@@ -118,20 +128,23 @@ const Home = () => {
         ))}
       </div>
 
+      <AddBannerLink
+        target="_blank"
+        href="https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=932989.13&subid=0&type=4"
+        marginTop = {"-50px"}
+      >
+        <img
+          src="ads/ad-5.gif"
+          alt=""
+          style={{
+            height: "100%",
+            width: "100%",
+            objectFit: "contain",
+          }}
+        />
+      </AddBannerLink>
 
-      <AddBannerLink target = "_blank" href = "https://click.linksynergy.com/fs-bin/click?id=YYSWusbt6yg&offerid=932989.13&subid=0&type=4">
-    <img src="ads/ad-5.gif"
-         alt= ''
-         style = {{
-          height:'100%',
-          width:'100%',
-          objectFit:'contain'
-        }}
-    />
-</AddBannerLink>  
-
-
-      <SectionHeader className="section-header" theme={theme}>
+      <SectionHeader theme={theme}>
         MUSIC SHOWS
       </SectionHeader>
 
@@ -141,7 +154,7 @@ const Home = () => {
         ))}
       </div>
 
-      <SectionHeader className="section-header" theme={theme}>
+      <SectionHeader theme={theme}>
         SCHEDULE
       </SectionHeader>
 
@@ -155,7 +168,7 @@ const Home = () => {
           position: "relative",
           zIndex: 10,
         }}
-        alt = "active fm schedule"
+        alt="active fm schedule"
       />
 
       <ParallaxImage
