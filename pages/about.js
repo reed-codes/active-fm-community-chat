@@ -1,11 +1,11 @@
 import React, { useEffect, useContext } from "react";
 import { scrollTop } from "../utils/index";
 import {
-  SectionHeader,
   Paragraph,
   LineDivider,
   SecondarySectionHeader,
 } from "../styles/style-utils";
+import SectionHeader from "../components/SectionHeader";
 import { ThemeContext } from "../state/ThemeProvider";
 
 const about = () => {
@@ -17,7 +17,7 @@ const about = () => {
 
   return (
     <section>
-      <SectionHeader theme={theme}>The Active FM story</SectionHeader>
+      <SectionHeader theme={theme} txt = {"The Active FM story"} />
 
       <div className="row">
         <div className="col-md-12">
@@ -27,7 +27,6 @@ const about = () => {
               minHeight: 400,
               background: "#000",
             }}
-            controls
             autoPlay
             >
             <source src="promo.mp4" type="video/mp4" />

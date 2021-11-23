@@ -2,10 +2,11 @@ import { useContext, useEffect } from "react";
 import { scrollTop } from "../utils/index";
 import BannerSlider from "../components/BannerSlider";
 import ShowCard from "../components/ShowCard";
-import { SectionHeader } from "../styles/style-utils";
+// import { SectionHeader } from "../styles/style-utils";
 import { ThemeContext } from "../state/ThemeProvider";
 import { ShowsContext } from "../state/ShowsContext";
 import styled from "styled-components";
+import SectionHeader from "../components/SectionHeader";
 
 const ParallaxImage = styled.div`
   height: 130px;
@@ -43,10 +44,8 @@ const Home = () => {
     <>
       <BannerSlider />
 
-      <SectionHeader theme={theme}>
-        TALK SHOWS
-      </SectionHeader>
-
+      <SectionHeader theme={theme} txt = {"TALK SHOWS"}/>
+       
       <div className="shows-scrollable-row">
         {shows.talkShows.map((show, index) => (
           <ShowCard index={index} show={show} />
@@ -68,9 +67,7 @@ const Home = () => {
         />
       </AddBannerLink>
 
-      <SectionHeader theme={theme}>
-        MORNING SHOWS
-      </SectionHeader>
+      <SectionHeader theme={theme} txt = {"MORNING SHOWS"}/>
 
       <div className="shows-scrollable-row">
         {shows.morningShows.map((show, index) => (
@@ -93,9 +90,7 @@ const Home = () => {
         />
       </AddBannerLink>
 
-      <SectionHeader theme={theme}>
-        AFTERNOON SHOWS
-      </SectionHeader>
+      <SectionHeader theme={theme} txt = {"AFTERNOON SHOWS"}/>
 
       <div className="shows-scrollable-row">
         {shows.afternoonShows.map((show, index) => (
@@ -118,9 +113,7 @@ const Home = () => {
         />
       </AddBannerLink>
 
-      <SectionHeader theme={theme}>
-        EVENING SHOWS
-      </SectionHeader>
+      <SectionHeader theme={theme} txt = {"EVENING SHOWS"}/>
 
       <div className="shows-scrollable-row">
         {shows.eveningShows.map((show, index) => (
@@ -144,9 +137,7 @@ const Home = () => {
         />
       </AddBannerLink>
 
-      <SectionHeader theme={theme}>
-        MUSIC SHOWS
-      </SectionHeader>
+      <SectionHeader theme={theme} txt = {"MUSIC SHOWS"}/>
 
       <div className="shows-scrollable-row">
         {shows.musicShows.map((show, index) => (
@@ -154,9 +145,7 @@ const Home = () => {
         ))}
       </div>
 
-      <SectionHeader theme={theme}>
-        SCHEDULE
-      </SectionHeader>
+      <SectionHeader theme={theme} txt = {"SCHEDULE"}/>
 
       <img
         src={"./img/schedule.jpg"}
