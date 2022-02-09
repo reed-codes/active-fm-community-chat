@@ -7,6 +7,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="author" content="active.fm" />
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
+      <meta property="og:image" content="https://www.activefm.co.za/img/Banner%202.png" />
       <meta charSet="utf-8" />
       <link rel="icon" href="/icons/logo.png" />
       <link
