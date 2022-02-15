@@ -14,13 +14,6 @@
         "category": "music-shows"
     },
     {
-        "name": "G.O.A.T Vybez!",
-        "description": "Interested in trends, social media and celeb life? Then Gloire is your man! Anything that is trending can and will be found on this show!",
-        "link": "https://iono.fm/c/6194",
-        "img": "GOAT VYBEZ 1.jpg",
-        "category": "morning-shows"
-    },
-    {
         "name": "The Sporting Base",
         "description": "Stay updated with what is going on in the sports world with our very passionate sports presenters. Marcos and Calvin debate about who deserves the title ‘Champion’, the biggest sports events in the world and get the latest on some of the sports drama.",
         "link": "https://iono.fm/c/2860",
@@ -173,5 +166,96 @@
         "link": "https://iono.fm/c/4178",
         "img": "Active FM Interviews.jpg",
         "category": "talk-shows"
+    },
+    {
+
+        "name": "GamerZone",
+
+        "description": "A game show with the latest updates and news. Become a pro gamer with Mlindeni today.",
+
+        "link": "https://iono.fm/c/7020",
+
+        "img": "The love show new pic.JPEG",
+
+        "category": "talk-shows"
+
+    },
+    {
+
+        "name": "The Kairos Moment",
+
+        "description": "Kairos Moment is an Opportunity or Season of Spiritual inspiration in your life, that will ultimately lead you to making the right decisions and Choices in life.",
+
+        "link": "https://iono.fm/c/7015",
+
+        "img": "Six show cover.jpg",
+
+        "category": "morning-shows"
+
+    },
+    {
+
+        "name": "Dynamic Thoughts With Pastor Ebenezer Kiluba!",
+
+        "description": "Dynamic Thoughts show is inspired by a book with the same title written by Pastor Kiluba wa Kiluba. This book was not born from the speculation of thoughts, it was inspired from direct revelations he received from the Christ through the Scriptures. These powerful (dynamo) thoughts have been the source of his success throughout his international evangelistic ministry.The mind is the driver of one’s life both spiritually and physically, everything goes through the mind and is manifested through one’s works. A mind inspired by the Holy Spirit will produce power in every aspect of life.Dynamic Thoughts show is a platform where mind energizing discussions and messages are transmitted by the help of the Holy Spirit, using the Bible as the foundation of the inspiration!",
+
+        "link": "https://iono.fm/c/7017",
+
+        "img": "Six show cover.jpg",
+
+        "category": "morning-shows"
+
+    },
+    {
+
+        "name": "The Factory For Greatness",
+
+        "description": "Ps Marlon deals with biblical entrepreneurial thinking and mindsets, perspectives and attitudes. Thoughts/ nuggets will be shared to become successful!",
+
+        "link": "https://iono.fm/c/7013",
+
+        "img": "Six show cover.jpg",
+
+        "category": "morning-shows"
+
+    },
+    {
+
+        "name": "Walk The Talk",
+
+        "description": "Welcome to Walk The Talk on Active FM.",
+
+        "link": "https://iono.fm/c/7016",
+
+        "img": "Six show cover.jpg",
+
+        "category": "afternoon-shows"
+
+    },
+    {
+
+        "name": "The Couch",
+
+        "description": "A show that looks into a variety of matters that communities face. Talking about a set of diverse conversations ranging from unemployment to superstitions in South Africa.So come, exchange thoughts and opinions with us.",
+
+        "link": "https://iono.fm/c/7019",
+
+        "img": "Six show cover.jpg",
+
+        "category": "evening-shows"
+
+    },
+    {
+
+        "name": "The Game Changers",
+
+        "description": "A podcast series that is hosted by TT Moafrika. Achievers, game changers, workerholics, go-getters Gets to sit down with TT and share their testimonial stories. Acknowledging their great work. Telephonic interviews, studio interviews and a lot of fun.",
+
+        "link": "https://iono.fm/c/7018",
+
+        "img": "Six show cover.jpg",
+
+        "category": "afternoon-shows"
+
     }
 ]
