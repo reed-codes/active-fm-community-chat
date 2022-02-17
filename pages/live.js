@@ -23,8 +23,9 @@ const live = () => {
   const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
   const isLiveDay = isWednesday || isThursday;
-  const isOnePM = liveHour == 13;
+  const isOnePM = liveHour == 14;
 
+  console.log("Heart Radio")
   return (
     <LivePageContainer>
       <IframeWrapper>
@@ -43,10 +44,10 @@ const live = () => {
             width="100%"
             height="150"
             src="https://hearthis.at/activefm/live"
-            frameborder="0"
-            allowtransparency
+            frameBorder="0"
+            allowTransparency
             allow="autoplay"
-          >
+            >
             <p>
               Listen to{" "}
               <a href="ACTIVE FM" target="_blank">
@@ -60,12 +61,13 @@ const live = () => {
               <a
                 href="Listen to DJ Sets, Mixes, Tracks and Sounds |  hearthis.at"
                 target="_blank"
-              >
+                >
                 hearthis.at
               </a>
             </p>
           </iframe>
-        ) : (
+        ) 
+        : (
           <iframe
             style={{
               height: "100%",
