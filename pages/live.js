@@ -26,13 +26,13 @@ const live = () => {
   const isLiveDay = isWednesday || isThursday;
   const isOnePM = liveHour == 15;
 
-  console.log("Heart Radio")
-  console.log(new Date().getHours())
-  console.log(isOnePM , isLiveDay , liveIframe)
+  // console.log("Heart Radio")
+  // console.log(new Date().getHours())
+  // console.log(isOnePM , isLiveDay , liveIframe)
   return (
     <LivePageContainer>
       <IframeWrapper>
-        {isLiveDay && isOnePM ? (
+        {/* {isLiveDay && isOnePM ? ( */}
           <iframe
             style={{
               height: "100%",
@@ -69,7 +69,7 @@ const live = () => {
             </p>
           </iframe>
         ) 
-        : (
+        {/* : (
           <iframe
             style={{
               height: "100%",
@@ -85,7 +85,7 @@ const live = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
-        )}
+        )} */}
 
         {/* <iframe  style={{
                     height: "100%",
