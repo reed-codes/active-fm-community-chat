@@ -24,7 +24,7 @@ const live = () => {
   const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
   const isLiveDay = isWednesday || isThursday;
-  const isOnePM = liveHour == 15;
+  const isOnePM = liveHour == 16;
 
   return (
     <LivePageContainer>
