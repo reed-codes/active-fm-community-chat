@@ -19,6 +19,7 @@ const live = () => {
     scrollTop();
   }, []);
 
+  let liveIframe = "https://hearthis.at/activefm/live"
   const liveHour = new Date().getHours();
   const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
@@ -26,6 +27,7 @@ const live = () => {
   const isOnePM = liveHour == 14;
 
   console.log("Heart Radio")
+  console.log(isOnePM , isLiveDay , liveIframe)
   return (
     <LivePageContainer>
       <IframeWrapper>
@@ -43,9 +45,8 @@ const live = () => {
             id="hearthis_at_track_6554137"
             width="100%"
             height="150"
-            src="https://hearthis.at/activefm/live"
+            src={liveIframe}
             frameBorder="0"
-            allowTransparency
             allow="autoplay"
             >
             <p>
