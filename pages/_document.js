@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
