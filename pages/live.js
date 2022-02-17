@@ -34,7 +34,7 @@ const live = () => {
           style={{
             height: "100%",
             width: "100%",
-            background: "url(./logo.png)",
+            background: "url(./icons/logo.png)",
             backgroundSize: 120,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -71,7 +71,7 @@ const live = () => {
             style={{
               height: "100%",
               width: "100%",
-              background: "url(./logo.png)",
+              background: "url(./icons/logo.png)",
               backgroundSize: 120,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
@@ -83,20 +83,7 @@ const live = () => {
             allowfullscreen
           />
         )}   
-              {/* <iframe  style={{
-                    height: "100%",
-                    width: "100%",
-                    background: "url(./logo.png)",
-                    backgroundSize: 120,
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                  }}
-                src="https://www.youtube.com/embed/rjDXZO-Ek24" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen
-                /> */}
+     
       </IframeWrapper>
     </LivePageContainer>
   );
