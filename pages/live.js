@@ -27,6 +27,7 @@ const live = () => {
   const isOnePM = liveHour == 15;
 
   console.log("Heart Radio")
+  console.log(new Date().getHours())
   console.log(isOnePM , isLiveDay , liveIframe)
   return (
     <LivePageContainer>
