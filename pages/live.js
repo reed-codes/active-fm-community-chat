@@ -23,13 +23,16 @@ const live = () => {
   const liveHour = new Date().getHours();
   const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
+  const isFriday = new Date().getDay() == 5;
   const isLiveDay = isWednesday || isThursday;
   const isOnePM = liveHour == 16;
 
   return (
     <LivePageContainer>
       <IframeWrapper>
-        {isLiveDay && isOnePM ? (
+        {/* {isLiveDay && isOnePM ? ( */}
+        {isFriday ? (
+          
         <iframe
           style={{
             height: "100%",
