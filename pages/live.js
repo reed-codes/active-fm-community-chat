@@ -25,8 +25,8 @@ const live = () => {
   const isThursday = new Date().getDay() == 4;
   const isFriday = new Date().getDay() == 5;
   const isLiveDay = isWednesday || isThursday;
-  const isOnePM = liveHour == 16;
-  const isTen = liveHour == 11;
+  const isOnePM = liveHour == 13;
+  const isTen = liveHour == 12;
 
   console.log("Time : " , isTen);
   console.log("Day : " , isFriday , new Date().getDay());
