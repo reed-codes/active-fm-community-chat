@@ -28,6 +28,8 @@ const live = () => {
   const isOnePM = liveHour == 16;
   const isTen = liveHour == 10;
 
+  console.log("Time : " , isTen);
+  console.log("Day : " , isFriday , new Date().getDay());
   return (
     <LivePageContainer>
       <IframeWrapper>
@@ -80,7 +82,7 @@ const live = () => {
             }}
             src="https://www.youtube.com/embed/rjDXZO-Ek24"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
