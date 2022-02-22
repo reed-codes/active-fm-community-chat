@@ -23,17 +23,17 @@ const live = () => {
   const liveHour = new Date().getHours();
   const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
-  const isFriday = new Date().getDay() == 2;
+  // const isFriday = new Date().getDay() == 2;
   const isLiveDay = isWednesday || isThursday;
   const isOnePM = liveHour == 13;
-  const isTen = liveHour == 11;
+  // const isTen = liveHour == 12;
 
-  console.log("Time : " , isTen);
-  console.log("Day : " , isFriday , new Date().getDay());
+  // console.log("Time : " , isTen);
+  // console.log("Day : " , isFriday , new Date().getDay());
   return (
     <LivePageContainer>
       <IframeWrapper>
-        {isFriday && isTen ? (
+        {isLiveDay && isOnePM ? (
         <iframe
           style={{
             height: "100%",
