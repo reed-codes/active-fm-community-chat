@@ -21,7 +21,7 @@ const live = () => {
 
   let liveIframe = "https://hearthis.at/activefm/live";
   const liveHour = new Date().getHours();
-  const isWednesday = new Date().getDay() == 3;
+  const isWednesday = new Date().getDay() == 2;
   const isThursday = new Date().getDay() == 4;
   // const isFriday = new Date().getDay() == 2;
   const isLiveDay = isWednesday || isThursday;
