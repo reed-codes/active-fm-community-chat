@@ -21,11 +21,11 @@ const live = () => {
 
   let liveIframe = "https://hearthis.at/activefm/live";
   const liveHour = new Date().getHours();
-  const isWednesday = new Date().getDay() == 2;
+  const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
   // const isFriday = new Date().getDay() == 2;
   const isLiveDay = isWednesday || isThursday;
-  const isOnePM = liveHour == 14;
+  const isOnePM = liveHour == 13;
   // const isTen = liveHour == 12;
 
   // console.log("Time : " , isTen);
