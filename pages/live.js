@@ -23,10 +23,10 @@ const live = () => {
   const liveHour = new Date().getHours();
   const isWednesday = new Date().getDay() == 3;
   const isThursday = new Date().getDay() == 4;
-  const isFriday = new Date().getDay() == 5;
+  const isFriday = new Date().getDay() == 2;
   const isLiveDay = isWednesday || isThursday;
   const isOnePM = liveHour == 13;
-  const isTen = liveHour == 12;
+  const isTen = liveHour == 11;
 
   console.log("Time : " , isTen);
   console.log("Day : " , isFriday , new Date().getDay());
