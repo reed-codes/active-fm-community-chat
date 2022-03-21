@@ -1,4 +1,5 @@
 import { useState, createContext, useContext, useEffect } from "react";
+import { useUser } from "../state/context/userContext";
 
 const CurrentChat = createContext(null);
 
