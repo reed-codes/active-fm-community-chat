@@ -35,6 +35,7 @@ const SendingInProgressPanel = (props) => {
                   src={props.preview}
                   className="
              h-full w-full object-cover rounded-full shadow-2xl"
+             alt="uploaded picture"
                 />
               )}
 

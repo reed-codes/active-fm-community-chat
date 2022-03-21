@@ -93,7 +93,7 @@ const DropZone = (props) => {
       <img
         src={props.file ? props.file.preview : ""}
         className="absolute h-full w-full top-0 left-0 z-[-1] opacity-20 object-cover"
-        alt=""
+        alt="dropped-photo"
       />
     </Box>
   );
@@ -167,6 +167,7 @@ const PostMetadataForm = (props) => {
           <img
             src={props.file ? props.file.preview : ""}
             className="h-full w-full object-cover object-center pointer-events-none"
+            alt = "dropped-image"
           />
         </Box>
 

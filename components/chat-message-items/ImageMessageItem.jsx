@@ -15,6 +15,7 @@ const ImageMessageItem = (props) => {
             src={props.message.MediaURL}
             className="w-full pointer-events-none max-h-[500px] max-2-[500px]"
             onLoad={scrollToLatestMessage}
+            alt="photo message"
           />
         </Zoom>
 
