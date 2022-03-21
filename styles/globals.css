@@ -1,0 +1,170 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #fff;
+  background-color: #0e1621;
+}
+
+/* body {
+  height: 100vh;
+  overflow: hidden;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #aa2329;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #bb272e;
+}
+
+.react-input-emoji--container {
+  background: #00312d !important;
+  color: #fff !important;
+}
+.react-emoji-picker--wrapper {
+  overflow: auto !important;
+  width: 360px !important;
+  height: 360px !important;
+}
+
+.voice-recording-player a {
+  display: none;
+  border-radius: 0 !important;
+}
+
+canvas {
+  height: 20px !important;
+  width: 70% !important;
+  min-width: 170px !important;
+  max-width: 300px !important;
+  overflow: auto !important;
+}
+
+@media (max-width: 763px) {
+  canvas {
+    min-width: 85px !important;
+    width: 70% !important;
+    max-width: 113px !important;
+  }
+}
+
+.dropzone {
+  height: 100%;
+  width: 100%;
+}
+
+.fade-in {
+  opacity: 0;
+  animation-name: fadein;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
+
+#wallpaper-demo-canvas {
+  background-size: 70px !important;
+}
+
+.rhap_main-controls-button {
+  color: #fff !important;
+}
+.rhap_progress-filled {
+  background: #fff !important;
+}
+.rhap_progress-indicator {
+  background: #3c69a2 !important;
+}
+.rhap_container {
+  min-width: 240px;
+  box-shadow: none !important;
+}
+
+.rhap_time {
+  color: #fff !important;
+  font-size: 13px !important;
+}
+
+.rhap_repeat-button,
+.rhap_volume-container {
+  display: none !important;
+}
+
+.rhap_progress-filled {
+  background-color: #0c1118 !important;
+}
+
+.rhap_download-progress,
+.rhap_progress-indicator {
+  background-color: #aa2329 !important;
+}
+.rhap_progress-container {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.rhap_progress-bar-show-download {
+  background-color: rgb(96 165 250) !important;
+}
+
+.rhap_container {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.rhap_progress-indicator {
+  border: 1px #555c63 solid !important;
+  width: 15px !important;
+  height: 15px !important;
+  top: -5px !important;
+  box-shadow: none !important;
+}
+
+
+/*  */
+#upload-progress-indicator-line{
+  background: #5fa3f8;
+  animation-name: puls-glow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes puls-glow {
+    to{
+       background:#b8d7fd
+    }
+}
+
+
+.MuiMenu-list{
+  background : #aa2329 !important
+}
